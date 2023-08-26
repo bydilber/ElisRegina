@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #F2F2F2;
+    line-height: normal;
+    font-style: normal;
+}
+header {
+    width: 100%;
+    background: #1D1E26;
+    text-align: center; 
+    position: sticky;
+    top: 0; 
+}
+
+nav {
+    width: 800px;
+    height: 64px;
+    margin: 0 auto; 
+    
+}
+
+header nav ul {
+    display: inline-block; 
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    width: 200px;
+    height: 64px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 20px; 
+    padding-top: 20px;
+}
+
+nav ul li:nth-child(2) {
+    background: #8C111B;
+}
+
+.container {
+    background: url(../assets/img/background-img.svg) repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    text-align: center;
+    /* filter: grayscale(100%); */
+    /* -webkit-filter: grayscale(100%); */
+}
+
+.container .text {
+    display: inline-block;
+    width: 500px;
+    margin-top: 40vh;
+}
+
+.text h1 {
+    color: #F2F2F2;
+    text-align: center;
+    text-shadow: -2px 2px 0px #8C111B;
+    font-size: 72px;
+    font-weight: 700;
+    
+}
+
+.text p {
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0; 
+}
+
+article{
+    width: 100%;
+    height: 110vh;
+    display: inline-block;
+    background: #1D1E26;
+    position: relative;
+}
+
+
+.left #bio{
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 15vh;
+    margin-bottom: 32px;
+}
+.left p{
+    color: #FFF;
+    font-style: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    width: 580px;
+}
+.left img{
+    position: absolute;
+   right: 90px;
+   top: 60px;
+}
+main{
+    width: 100%;
+    height: 150vh;
+    background: #1D1E26;
+}
+main p{
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 56px;
+}
+.card-container{
+    margin-left: 80px; 
+}
+.card{
+    width: 380px;
+    height: 300px;
+    display: inline-block;
+    background: #1D1E26;
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 56px;
+    position: relative;
+}
+.card p{
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    left: 190px;
+}
+.card img{
+    margin: 20px 26px;
+    width: 130px;
+    height: 130px;
+}
+.card ol{
+    position: absolute;
+    top: 50px;
+    left: 180px;
+}
+.card ol li{
+    color: #F2F2F2;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 700;
+}
+#album-name{
+    color: #FFF;
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    top: 156px;
+    left: 50px;
+}
+.main-a{
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none ;
+    margin-left: 35%;
+}
+.main-a::after{
+    content: " more albuns from Elisa.";
+    color: #F2F2F2;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+footer{
+    width: 100%;
+    height: 64px;
+    flex-shrink: 0;
+    background: #8C111B;
+}
+footer p{
+    color: #F2F2F2;
+    padding: 21px 85px;
+    font-size: 18px;
+    font-weight: 700;
+}
